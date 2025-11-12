@@ -244,8 +244,7 @@ $$ **A(BC)** =
 \end{pmatrix}
 $$
 
-
-
+Son iguales por la propiedad asociativa (mismos resultados).
 
 
 
