@@ -1,6 +1,3 @@
-# Nueva rama
-kjashdkajshdkasjhdaksjdaksjd (Solo añadí la actividad 18 aqui igual jaja)
-
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## Alumno: Jesús Omar Uc Domínguez
