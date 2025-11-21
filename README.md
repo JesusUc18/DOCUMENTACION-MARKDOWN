@@ -9,12 +9,10 @@
 
 **Descripción del proceso para que se renderizara su matriz:**
 
----
+```
 Abrir excel --> Nueva hoja blanca --> selecciono una cuadricula de 30 x 30 (A1: AD30) --> Resduzco el tamaño (Quedan cuadrados) --> Formato condicional --> Añado nueva regla --> Damos formato a las celdas (número) --> 0 == Blanco y 1 == Negro --> Confirmamos.
----
+```
 
-| A | B | C |
-|---|---|---|
-|
-|d|e|f|
-|g|h|i|
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A | B | C | D | E | F | G | G | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | AA | AB | AC | AD |
