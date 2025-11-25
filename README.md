@@ -212,6 +212,24 @@ Confirmamos.
 
 ---
 
+### Parte 2: Transpuestas
+
+**Descripción del proceso para transponer una matriz:**
+
+```
+Nueva hoja blanca -->
+selecciono la barra de funciones --->
+Escribo: TRANSPONER(Hoja1!A1:AD30) -->
+Resduzco el tamaño (Quedan cuadrados) -->
+Formato condicional -->
+Añado nueva regla -->
+Damos formato a las celdas (número) -->
+0 == Blanco y 1 == Negro -->
+Confirmamos.
+```
+
+---
+
 ### MATRICES TRANSPUESTAS
 
 --- 
