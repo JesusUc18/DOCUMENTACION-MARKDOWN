@@ -23,7 +23,7 @@ Confirmamos.
 
 ---
 
-###IMÁGENES ORIGINALES
+### IMÁGENES ORIGINALES
 
 ---
 
@@ -212,9 +212,9 @@ Confirmamos.
 
 ---
 
-###MATRICES TRANSPUESTAS
+### MATRICES TRANSPUESTAS
 
----
+--- 
 
 ### FIGURA 1: PIKACHU
 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
