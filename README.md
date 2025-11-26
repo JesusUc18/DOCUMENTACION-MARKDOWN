@@ -1,7 +1,8 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## Alumno: Jesús Omar Uc Domínguez
-## Actividad #20 - Documantación de matrices con Git Branches
+## Actividad #20 - Documentación de matrices con Git Branches
+## 25/11/2025
 
 ---
 
