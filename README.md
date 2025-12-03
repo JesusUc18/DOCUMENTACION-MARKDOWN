@@ -9,13 +9,12 @@
 
 Sistema original:
 
-$
-\begin{cases}
+$`\begin{cases}
 x + y + z = 6 \\
 2x - y + z = 3 \\
 x + 2y - z = 2
 \end{cases}
-$
+`$
 
 ---
 
@@ -98,7 +97,7 @@ $`B =
 \begin{pmatrix}
 6 \\ 3 \\ 2
 \end{pmatrix}
-$`
+`$
 
 
 ### Resultado  
@@ -107,7 +106,7 @@ $`X = A^{-1} B =
 \begin{pmatrix}
 1 \\ 3 \\ 2
 \end{pmatrix}
-$`
+`$
 
 
 ---
