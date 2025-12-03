@@ -131,3 +131,57 @@ $\( \det(A) = 6$
 $(x,y,z) = (1,3,2)$
 
 ---
+
+# Ejercicio 2 — Tipo de solución
+
+### a)  
+Sistema **dependiente** → tiene **infinitas soluciones**.
+
+### b)  
+Sistema **incompatible** → **no tiene solución**.
+
+### c)  
+Sistema **compatible determinado** → **solución única**.
+
+---
+
+#  Ejercicio 3 — Sistema 4×4
+
+Resolver:
+
+$`
+\begin{cases}
+x + y + z + w = 10 \\
+2x + y - z + w = 5 \\
+x - y + z - w = 1 \\
+x + y - z + 2w = 8
+\end{cases}
+`$
+
+Matriz aumentada:
+
+$`\begin{bmatrix}
+1 & 1 & 1 & 1 & | & 10 \\
+2 & 1 & -1 & 1 & | & 5 \\
+1 & -1 & 1 & -1 & | & 1 \\
+1 & 1 & -1 & 2 & | & 8
+\end{bmatrix}`$
+
+Luego de aplicar Gauss:
+
+$`\begin{bmatrix}
+1 & 1 & 0 & 0 & | & 3 \\
+0 & 1 & 0 & 1 & | & 4 \\
+0 & 0 & 1 & 1 & | & 3 \\
+0 & 0 & 0 & 1 & | & 1
+\end{bmatrix}`$
+
+Soluciones:
+
+$w = 1$  
+$z = 2$  
+$y = 3$  
+$x = 0$
+
+---
+
