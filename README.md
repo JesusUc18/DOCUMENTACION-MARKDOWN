@@ -5,7 +5,7 @@
 
 ---
 
- Ejercicio 1 — Resolver el sistema por todos los métodos
+# Ejercicio 1 — Resolver el sistema por todos los métodos
 
 Sistema original:
 
@@ -20,32 +20,33 @@ x + 2y - z = 2
 ---
 
 ## Método Gauss  
+
 El método de Gauss consiste en transformar la matriz aumentada en una forma escalonada mediante operaciones elementales, permitiendo resolver el sistema por sustitución hacia atrás.
 
 ### Matriz aumentada inicial  
-\[
-\begin{bmatrix}
+
+$`\begin{bmatrix}
 1 & 1 & 1 & | & 6 \\
 2 & -1 & 1 & | & 3 \\
 1 & 2 & -1 & | & 2
-\end{bmatrix}
-\]
+\end{bmatrix}`$
 
 ### Operaciones realizadas
+
 1. \( F_2 \leftarrow F_2 - 2F_1 \)  
 2. \( F_3 \leftarrow F_3 - F_1 \)  
 3. \( F_3 \leftarrow F_3 + F_2 \)
 
 ### Resultado escalonado
-\[
-\begin{bmatrix}
+
+$`\begin{bmatrix}
 1 & 1 & 1 & | & 6 \\
 0 & -3 & -1 & | & -9 \\
 0 & 0 & 2 & | & 4
-\end{bmatrix}
-\]
+\end{bmatrix}`$
 
 ### Solución por sustitución
+
 - De la última fila: \( 2z = 4 \Rightarrow z = 2 \)  
 - Sustituyendo en la segunda fila:  
   \( -3y - 1(2) = -9 \Rightarrow y = 3 \)  
@@ -55,81 +56,78 @@ El método de Gauss consiste en transformar la matriz aumentada en una forma esc
 ---
 
 ## Método Gauss–Jordan  
+
 Este método continúa el proceso hasta obtener una matriz identidad, dejando explícitas las soluciones sin necesidad de sustitución.
 
 Partimos de la forma escalonada anterior:
 
-\[
-\begin{bmatrix}
+$`\begin{bmatrix}
 1 & 1 & 1 & | & 6 \\
 0 & -3 & -1 & | & -9 \\
 0 & 0 & 2 & | & 4
-\end{bmatrix}
-\]
+\end{bmatrix}`$
 
 ### Operaciones realizadas
+
 1. \( F_3 \leftarrow \frac{1}{2}F_3 \)  
 2. \( F_2 \leftarrow F_2 + F_3 \)  
 3. \( F_1 \leftarrow F_1 - F_3 \)  
 4. \( F_1 \leftarrow F_1 - F_2 \)
 
 ### Resultado final en forma reducida
-\[
-\begin{bmatrix}
+
+$`\begin{bmatrix}
 1 & 0 & 0 & | & 1 \\
 0 & 1 & 0 & | & 3 \\
 0 & 0 & 1 & | & 2
-\end{bmatrix}
-\]
+\end{bmatrix}`$
 
 ---
 
 ## Matriz inversa  
+
 Para resolver \( AX = B \) se calcula \( X = A^{-1}B \).
 
 ### Matriz de coeficientes
-\[
-A = 
-\begin{bmatrix}
+
+$`A = \begin{bmatrix}
 1 & 1 & 1 \\
 2 & -1 & 1 \\
 1 & 2 & -1
-\end{bmatrix}
-\]
+\end{bmatrix}`$
 
 ### Vector de resultados
-\[
-B = 
-\begin{bmatrix}
-6 \\ 3 \\ 2
-\end{bmatrix}
-\]
+
+$B = \begin{bmatrix} 6 \\ 3 \\ 2 \end{bmatrix}$
+
+$X = A^{-1}B$
 
 ### Resultado  
-\[
-X =
-\begin{bmatrix}
-1 \\ 3 \\ 2
-\end{bmatrix}
-\]
+
+$X = \begin{bmatrix} 1 \\ 3 \\ 2 \end{bmatrix}$
 
 ---
 
 ## Regla de Cramer  
+
 Se usa el determinante de la matriz y los determinantes de matrices modificadas para cada variable.
 
-- Determinante: \( \det(A) = 6 \)
+- Determinante:
+
+$\( \det(A) = 6$
+
 - Se reemplazan columnas según la variable a calcular.
 
 ### Resultados
-- \( x = 1 \)
-- \( y = 3 \)
-- \( z = 2 \)
+
+- x = 1 
+- y = 3 
+- z = 2 
 
 ---
 
 # **Solución final del Ejercicio 1**  
-\[
-(x, y, z) = (1, 3, 2)
-\]
 
+$(x,y,z) = (1,3,2)$
+
+---
