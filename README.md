@@ -185,3 +185,41 @@ $x = 0$
 
 ---
 
+# Ejercicio 4 — Aplicación práctica
+
+Matrices de producción:  
+Productos: Premium (P), Standard (S), Utilitario (U)  
+Materias: res (R), pollo (Q), cerdo (C)
+
+### Sistema de ecuaciones
+
+$`\begin{bmatrix}
+2 & 1 & 3 \\
+3 & 1 & 2 \\
+1 & 2 & 1
+\end{bmatrix}`$
+
+$`\begin{bmatrix}
+P \\ S \\ U
+\end{bmatrix}`$=
+$`\begin{bmatrix}
+100 \\ 120 \\ 80
+\end{bmatrix}`$
+
+
+### Reducción por Gauss
+
+$`\begin{bmatrix}
+1 & 0 & 1 & | & 20 \\
+0 & 1 & 1 & | & 40 \\
+0 & 0 & 1 & | & 20
+\end{bmatrix}`$
+
+### Resultados
+
+$U = 20$  
+$S = 20$  
+$P = 0$
+
+---
+
