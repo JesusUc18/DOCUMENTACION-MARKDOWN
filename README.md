@@ -9,13 +9,13 @@
 
 Sistema original:
 
-\[
+$
 \begin{cases}
 x + y + z = 6 \\
 2x - y + z = 3 \\
 x + 2y - z = 2
 \end{cases}
-\]
+$
 
 ---
 
