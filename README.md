@@ -197,9 +197,7 @@ $`\begin{bmatrix}
 2 & 1 & 3 \\
 3 & 1 & 2 \\
 1 & 2 & 1
-\end{bmatrix}`$
-
-$`\begin{bmatrix}
+\end{bmatrix}\begin{bmatrix}
 P \\ S \\ U
 \end{bmatrix}`$=
 $`\begin{bmatrix}
@@ -217,8 +215,10 @@ $`\begin{bmatrix}
 
 ### Resultados
 
-$U = 20$  
-$S = 20$  
+$U = 20$
+
+$S = 20$
+
 $P = 0$
 
 ---
