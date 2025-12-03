@@ -33,9 +33,9 @@ $`\begin{bmatrix}
 
 ### Operaciones realizadas
 
-1. \( F_2 \leftarrow F_2 - 2F_1 \)  
-2. \( F_3 \leftarrow F_3 - F_1 \)  
-3. \( F_3 \leftarrow F_3 + F_2 \)
+1. (F2 ---> F2 - 2.F1)  
+2. (F3 ---> F3 - F1)  
+3. (F3 ---> F3 + F2)
 
 ### Resultado escalonado
 
@@ -45,13 +45,11 @@ $`\begin{bmatrix}
 0 & 0 & 2 & | & 4
 \end{bmatrix}`$
 
-### Solución por sustitución
+### Soluciones
 
-- De la última fila: \( 2z = 4 \Rightarrow z = 2 \)  
-- Sustituyendo en la segunda fila:  
-  \( -3y - 1(2) = -9 \Rightarrow y = 3 \)  
-- Finalmente en la primera:  
-  \( x + 3 + 2 = 6 \Rightarrow x = 1 \)
++ (z = 2)  
++ (y = 3)  
++ (x = 1)
 
 ---
 
@@ -69,10 +67,10 @@ $`\begin{bmatrix}
 
 ### Operaciones realizadas
 
-1. \( F_3 \leftarrow \frac{1}{2}F_3 \)  
-2. \( F_2 \leftarrow F_2 + F_3 \)  
-3. \( F_1 \leftarrow F_1 - F_3 \)  
-4. \( F_1 \leftarrow F_1 - F_2 \)
+1. (F3 ---> 1/2.F_3)  
+2. (F2 ---> F2 + F3)  
+3. (F1 ---> F1 - F3)  
+4. (F1 ---> F1 - F2)
 
 ### Resultado final en forma reducida
 
@@ -86,8 +84,6 @@ $`\begin{bmatrix}
 
 ## Matriz inversa  
 
-Para resolver \( AX = B \) se calcula \( X = A^{-1}B \).
-
 ### Matriz de coeficientes
 
 $`A = \begin{bmatrix}
@@ -98,13 +94,21 @@ $`A = \begin{bmatrix}
 
 ### Vector de resultados
 
-$B = \begin{bmatrix} 6 \\ 3 \\ 2 \end{bmatrix}$
+$`B = 
+\begin{pmatrix}
+6 \\ 3 \\ 2
+\end{pmatrix}
+$`
 
-$X = A^{-1}B$
 
 ### Resultado  
 
-$X = \begin{bmatrix} 1 \\ 3 \\ 2 \end{bmatrix}$
+$`X = A^{-1} B =
+\begin{pmatrix}
+1 \\ 3 \\ 2
+\end{pmatrix}
+$`
+
 
 ---
 
@@ -114,21 +118,25 @@ Se usa el determinante de la matriz y los determinantes de matrices modificadas 
 
 - Determinante:
 
-$\( \det(A) = 6$
+$$
+\det(A) = 6
+$$
 
 - Se reemplazan columnas según la variable a calcular.
 
 ### Resultados
 
-- x = 1 
-- y = 3 
-- z = 2 
++ (x = 1)  
++ (y = 3)  
++ (z = 2) 
 
 ---
 
 # **Solución final del Ejercicio 1**  
 
-$(x,y,z) = (1,3,2)$
+$$
+(x, y, z) = (1, 3, 2)
+$$
 
 ---
 
@@ -194,14 +202,9 @@ Materias: res (R), pollo (Q), cerdo (C)
 ### Sistema de ecuaciones
 
 $`\begin{bmatrix}
-2 & 1 & 3 \\
-3 & 1 & 2 \\
-1 & 2 & 1
-\end{bmatrix}\begin{bmatrix}
-P \\ S \\ U
-\end{bmatrix}`$=
-$`\begin{bmatrix}
-100 \\ 120 \\ 80
+2 & 1 & 3 | & P \\
+3 & 1 & 2 | & S \\
+1 & 2 & 1 | & U
 \end{bmatrix}`$
 
 
