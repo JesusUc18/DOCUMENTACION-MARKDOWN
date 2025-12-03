@@ -147,7 +147,7 @@ Sistema **compatible determinado** → **solución única**.
 
 #  Ejercicio 3 — Sistema 4×4
 
-Resolver:
+Sistema a resolver:
 
 $`
 \begin{cases}
@@ -158,7 +158,7 @@ x + y - z + 2w = 8
 \end{cases}
 `$
 
-Matriz aumentada:
+### Matriz aumentada inicial
 
 $`\begin{bmatrix}
 1 & 1 & 1 & 1 & | & 10 \\
@@ -167,7 +167,7 @@ $`\begin{bmatrix}
 1 & 1 & -1 & 2 & | & 8
 \end{bmatrix}`$
 
-Luego de aplicar Gauss:
+### Resultado después de Gauss
 
 $`\begin{bmatrix}
 1 & 1 & 0 & 0 & | & 3 \\
